@@ -1,0 +1,13 @@
+flask
+flask-cors
+torch
+torchvision
+diffusers
+transformers
+peft
+accelerate
+tqdm
+Pillow
+safetensors
+scipy
+huggingface_hub
