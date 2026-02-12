@@ -1,6 +1,6 @@
 # AI Entertainment - LoRA Image Generator
 
-This project is a part of AI-Enabled subject coursework.
+This project is a part of 01219462 AI Enabled subject coursework at Kasetsart University.
 A modern, "Cyberpunk" aesthetic web application for generating AI images using Stable Diffusion with LoRA adaptors. This project features a React frontend utilizing Tailwind CSS v4 for styling and a Flask backend for handling image generation requests.
 
 ![application screenshot](/backend/static/generated/image.png)
