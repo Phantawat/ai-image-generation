@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "814425ad-6975-4245-8102-5cbbd93e23d8",
+    "status": "queued",
+    "prompt": "A cute Golden Retriever puppy sitting in a sunny park, looking at the camera.",
+    "negative_prompt": "",
+    "created_at": "2026-02-12T19:19:03.783951",
+    "image_filename": null
+  },
+  {
+    "id": "8f527096-e2ac-40f6-b0e4-a5cb3da76564",
+    "status": "processing",
+    "prompt": "A cute Golden Retriever puppy sitting in a sunny park, looking at the camera.",
+    "negative_prompt": "",
+    "created_at": "2026-02-12T19:14:04.450575",
+    "image_filename": null
+  }
+]
