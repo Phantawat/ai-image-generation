@@ -312,7 +312,12 @@ function App() {
                 
                 {(status === 'queued' || status === 'processing') && (
                   <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 backdrop-blur-md">
-                    <Zap className="w-10 h-10 text-cyan-400 animate-pulse mb-4" />
+                    <div className="relative flex items-center justify-center mb-6">
+                      <Loader2 className="w-20 h-20 text-cyan-500/80 animate-spin" />
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <Zap className="w-8 h-8 text-cyan-200 fill-cyan-500/50 animate-pulse drop-shadow-[0_0_8px_rgba(34,211,238,0.3)]" />
+                      </div>
+                    </div>
                     <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">{loadingMessage}</h3>
                   </div>
                 )}
